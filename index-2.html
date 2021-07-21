@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <title>BloodBank - Software System</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="header">
+			<div class="header-left">
+				<a href="index-2.html" class="logo">
+					<img src="assets/img/logo.png" width="35" height="35" alt=""> <span>B l <i class="fa fa-tint"></i> o d B a n k</span>
+				</a>
+			</div>
+            <ul class="nav user-menu float-right">
+                <li class="nav-item dropdown has-arrow">
+                    <a href="#" class="dropdown-toggle nav-link user-link" data-toggle="dropdown">
+                        <span class="user-img">
+							<img class="rounded-circle" src="assets/img/user.jpg" width="24" alt="Admin">
+							<span class="status online"></span>
+						</span>
+						<span>Staff</span>
+                    </a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="settings.html">Settings</a>
+						<a class="dropdown-item" href="login.html">Logout</a>
+					</div>
+                </li>
+            </ul>
+            <div class="dropdown mobile-user-menu float-right">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                <div class="dropdown-menu dropdown-menu-right">
+                
+                    <a class="dropdown-item" href="settings.html">Settings</a>
+                    <a class="dropdown-item" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-inner slimscroll">
+                <div id="sidebar-menu" class="sidebar-menu">
+                    <ul>
+                        <li class="menu-title">Main</li>
+                        <li class="active">
+                            <a href="index-2.html"><i class="fa fa-home"></i> <span>Home</span></a>
+                        </li>
+                        <li>
+                            <a href="patients.html"><i class="fa fa-tint"></i> <span>Donor</span></a>
+                        </li>
+
+                        <li class="submenu">
+                            <a href='#'><i class="fa fa-calendar"></i> <span>Blood Request</span><span class="menu-arrow"></span></a>
+                            <ul style="disolay: none;">
+                                <li><a href="appointments.html">Internal Request</a></li>
+                                <li><a href="externalrequest.html">External Request</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            <a href="departments.html"><i class="fa fa-hospital-o"></i> <span>Blood in stock</span></a>
+                        </li>
+                    
+                        <li class="submenu">
+                            <a href="#"><i class="fa fa-envelope"></i> <span> Email</span> <span class="menu-arrow"></span></a>
+                            <ul style="display: none;">
+                                <li><a href="compose.html">Compose Mail</a></li>
+                                <li><a href="inbox.html">Inbox</a></li>
+                            </ul>
+                        </li>
+						
+                        <li>
+                            <a href="settings.html"><i class="fa fa-cog"></i> <span>Settings</span></a>
+                        </li>
+                        
+                        <li class="submenu">
+                            <a href="#"><i class="fa fa-columns"></i> <span>More Info.</span> <span class="menu-arrow"></span></a>
+                            <ul style="display: none;">
+                                <li><a href="login.html"> Login </a></li>
+                                <li><a href="register.html"> Register </a></li>
+                                <li><a href="forgot-password.html"> Forgot Password </a></li>
+                                <li><a href="change-password2.html"> Change Password </a></li>
+                                <li><a href="lock-screen.html"> Lock Screen </a></li>
+                                
+                            </ul>
+                        </li>
+                              
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="page-wrapper">
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="dash-widget">
+							<p><a href="A+.html"><span class="dash-widget-bg1"><i class="fa fa-tint" aria-hidden="true"></i></span></a></p>
+							<div class="dash-widget-info text-right">
+								<h3>A+</h3>
+								<span class="widget-title1">A+ <i class="fa fa-check" aria-hidden="true"></i></span>
+							</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="dash-widget">
+							<p><a href="B+.html"><span class="dash-widget-bg1"><i class="fa fa-tint" aria-hidden="true"></i></span></a></p>
+							<div class="dash-widget-info text-right">
+								<h3>B+</h3>
+								<span class="widget-title1">B+ <i class="fa fa-check" aria-hidden="true"></i></span>
+							</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="dash-widget">
+							<p><a href="AB.html"><span class="dash-widget-bg1"><i class="fa fa-tint" aria-hidden="true"></i></span></a></p>
+							<div class="dash-widget-info text-right">
+								<h3>AB+</h3>
+								<span class="widget-title1">AB+ <i class="fa fa-check" aria-hidden="true"></i></span>
+							</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="dash-widget">
+							<p><a href="O+.html"><span class="dash-widget-bg1"><i class="fa fa-tint" aria-hidden="true"></i></span></a></p>
+							<div class="dash-widget-info text-right">
+								<h3>O+</h3>
+								<span class="widget-title1">O+ <i class="fa fa-check" aria-hidden="true"></i></span>
+							</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="dash-widget">
+							<p><a href="A-.html"><span class="dash-widget-bg1"><i class="fa fa-tint" aria-hidden="true"></i></span></a></p>
+							<div class="dash-widget-info text-right">
+								<h3>A-</h3>
+								<span class="widget-title1">A- <i class="fa fa-check" aria-hidden="true"></i></span>
+							</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="dash-widget">
+                        <p><a href="B-.html"><span class="dash-widget-bg2"><i class="fa fa-tint"></i></span></a></p>
+                            <div class="dash-widget-info text-right">
+                                <h3>B-</h3>
+                                <span class="widget-title2">B-<i class="fa fa-check" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="dash-widget">
+                            <p><a href="AB-.html"><span class="dash-widget-bg3"><i class="fa fa-tint" aria-hidden="true"></i></span></a></p>
+                            <div class="dash-widget-info text-right">
+                                <h3>AB-</h3>
+                                <span class="widget-title3">AB-<i class="fa fa-check" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="dash-widget">
+                            <p><a href="O-.html"><span class="dash-widget-bg4"><i class="fa fa-tint" aria-hidden="true"></i></span></a></p>
+                            <div class="dash-widget-info text-right">
+                                <h3>O-</h3>
+                                <span class="widget-title4">O- <i class="fa fa-check" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-6 col-xl-6">
+						<div class="card">
+							<div class="card-body">
+								<div class="chart-title">
+									<h4>Patient Total</h4>
+									<span class="float-right"><i class="fa fa-caret-up" aria-hidden="true"></i> 15% Higher than Last Month</span>
+								</div>	
+								<canvas id="linegraph"></canvas>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-6 col-xl-6">
+						<div class="card">
+							<div class="card-body">
+								<div class="chart-title">
+									<h4>Patients In</h4>
+									<div class="float-right">
+										<ul class="chat-user-total">
+											<li><i class="fa fa-circle current-users" aria-hidden="true"></i>ICU</li>
+											<li><i class="fa fa-circle old-users" aria-hidden="true"></i> OPD</li>
+										</ul>
+									</div>
+								</div>	
+								<canvas id="bargraph"></canvas>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-8 col-xl-8">
+						<div class="card">
+							<div class="card-header">
+								<h4 class="card-title d-inline-block">Upcoming Request</h4> <a href="appointments.html" class="btn btn-primary float-right">View all</a>
+							</div>
+							<div class="card-body p-0">
+								<div class="table-responsive">
+									<table class="table mb-0">
+										<thead class="d-none">
+											<tr>
+												<th>Patient Name</th>
+												<th>Doctor Name</th>
+												<th>Timing</th>
+												<th class="text-right">Status</th>
+											</tr>
+										</thead>
+                                    </div>
+										<tbody>
+											<tr>
+												<td style="min-width: 200px;">
+													<a class="avatar" href="profile.html">B</a>
+													<h2><a href="profile.html">Allen <span>Kumasi, Ghana</span></a></h2>
+												</td>                 
+												<td>
+													<h5 class="time-title p-0">Appointment With</h5>
+													<p>Dr. Yankey</p>
+												</td>
+												<td>
+													<h5 class="time-title p-0">Timing</h5>
+													<p>7.00 PM</p>
+												</td>
+												<td class="text-right">
+													<a href="appointments.html" class="btn btn-outline-primary take-btn">Take up</a>
+												</td>
+											</tr>
+											<tr>
+												<td style="min-width: 200px;">
+													<a class="avatar" href="profile.html">B</a>
+													<h2><a href="profile.html">Joseph <span>Kumasi, Ghana</span></a></h2>
+												</td>                 
+												<td>
+													<h5 class="time-title p-0">Appointment With</h5>
+													<p>Dr. Kommey</p>
+												</td>
+												<td>
+													<h5 class="time-title p-0">Timing</h5>
+													<p>7.00 PM</p>
+												</td>
+												<td class="text-right">
+													<a href="appointments.html" class="btn btn-outline-primary take-btn">Take up</a>
+												</td>
+											</tr>
+											<tr>
+												<td style="min-width: 200px;">
+													<a class="avatar" href="profile.html">B</a>
+													<h2><a href="profile.html">Kwaku <span>Kumasi, Ghana</span></a></h2>
+												</td>                 
+												<td>
+													<h5 class="time-title p-0">Appointment With</h5>
+													<p>Dr. Yankey</p>
+												</td>
+												<td>
+													<h5 class="time-title p-0">External</h5>
+													<p>Aninawah</p>
+												</td>
+
+												<td class="text-right">
+													<a href="appointments.html" class="btn btn-outline-primary take-btn">Take up</a>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+                        
+                            <div class="card-body">
+                                <ul class="contact-list">
+                                  
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+				</div>
+							
+							</div>
+						</div>
+					 </div>
+				</div>
+            </div>
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-overlay" data-reff=""></div>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.slimscroll.js"></script>
+    <script src="assets/js/Chart.bundle.js"></script>
+    <script src="assets/js/chart.js"></script>
+    <script src="assets/js/app.js"></script>
+
+</body>
+</html>
